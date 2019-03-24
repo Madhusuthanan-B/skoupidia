@@ -1,0 +1,25 @@
+version: 2
+jobs:
+  build:
+    docker:
+      working_directory: ~/repo/main
+
+      - image: circleci/node:8.15
+
+    steps:
+      - checkout
+      - run:
+          name: update-npm
+          command: 'sudo npm install -g npm@latest'
+       - restore_cache:
+          key: dependency-cache-{{ checksum "package.json" }}
+       - run:
+          name: install-nmp
+          command: npm install
+      - save_cache: # special step to save the dependency cache
+           key: dependency-cache-{{ checksum "package.json" }}
+           paths:
+               - ./node_modules
+      - run: # run build
+          name: build package
+          command: npm run build
