@@ -47,6 +47,7 @@ main {
       flex-direction: column;
       text-align: center;
       margin-top: 5rem;
+      animation: glow 3s ease-in;
 
       h1,
       h2 {
@@ -59,6 +60,7 @@ main {
         font-size: 5rem;
         text-transform: uppercase;
       }
+
       h2 {
         color: #00C3Dd;
         text-transform: uppercase;
@@ -76,4 +78,38 @@ p {
   color: #ffff;
   padding: 1rem;
   font-size: 1.3rem;
+}
+
+button {
+  background: #000D22;
+  padding: 0.5rem;
+  border-image-slice: 1;
+  background: black;
+  font-size: 0.8rem;
+  border-width: 2px;
+  margin: 1rem;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.primary {
+  border-image: linear-gradient(to left bottom, #99097D, #00d4ff);
+  color: #00d4ff;
+
+  &:hover {
+    border-image: linear-gradient(to left, #00d4ff, #99097D);
+  }
+}
+
+.main-nav {
+  display: flex;
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

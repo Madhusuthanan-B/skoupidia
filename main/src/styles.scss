@@ -7,6 +7,15 @@ html, body {
   background: #000D22;
   color: #ffff;
   -webkit-font-smoothing: antialiased;
+  animation: glow 2s ease-in;
 }
 
 
+@keyframes glow {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
