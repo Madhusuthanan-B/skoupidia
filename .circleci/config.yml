@@ -21,7 +21,7 @@ jobs: # a collection of steps
             - ./node_modules
       - run: # run tests
           name: unit-tests
-          command: npm run build
+          command: npm run test
       - run: # build package
           name: build-package
           command: npm run build
