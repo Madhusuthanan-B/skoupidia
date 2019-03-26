@@ -1,4 +1,4 @@
-nav {
+.navContainer {
   display: flex;
   justify-content: space-between;
   margin: 0.5rem;
@@ -25,6 +25,45 @@ nav {
     }
   }
 
+}
+@media only screen and (max-width:600px){
+	#navigation{
+		order: 1;
+	}
+	#logo{
+		order: 2;
+	}
+	.main-left {
+		margin-left: 0.5rem;
+		background: linear-gradient(to bottom right, #000D22 75%, #00C3Dd, #004D68, #550455, #99097D);
+		display: flex;
+		flex-direction: column;
+	
+		.main-title {
+		  display: flex;
+		  flex-direction: column;
+		  text-align: center;
+		  margin-top: 5rem;
+		  animation: glow 3s ease-in;
+	
+		  h1,
+		  h2 {
+			margin: 0;
+		  }
+	
+		  h1 {
+			color: #99097D;
+			font-weight: normal;
+			 font-size: 4rem!important;
+			text-transform: uppercase;
+		  }
+	
+		  h2 {
+			color: #00C3Dd;
+			text-transform: uppercase;
+		  }
+		}
+	  }
 }
 
 main {
