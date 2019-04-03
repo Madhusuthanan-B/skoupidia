@@ -1,0 +1,1 @@
+body,html{margin:0;padding:0;height:100%;width:100%;background:#000d22;color:#ffff;-webkit-font-smoothing:antialiased;-webkit-animation:2s ease-in glow;animation:2s ease-in glow}@-webkit-keyframes glow{0%{opacity:0}100%{opacity:1}}@keyframes glow{0%{opacity:0}100%{opacity:1}}
