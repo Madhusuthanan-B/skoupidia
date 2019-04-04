@@ -2,7 +2,7 @@
   "name": "Skoupidia",
   "short_name": "Skoupidia",
   "theme_color": "#1976d2",
-  "background_color": "#00d4ff",
+  "background_color": "#000D22",
   "display": "standalone",
   "scope": "/",
   "start_url": "/",

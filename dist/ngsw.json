@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554400053814,
+  "timestamp": 1554402894441,
   "index": "https://skoupidia-staging.herokuapp.com/index.html",
   "assetGroups": [
     {
@@ -23,18 +23,18 @@
       "installMode": "lazy",
       "updateMode": "prefetch",
       "urls": [
-        "https://skoupidia-staging.herokuapp.com/assets/icons/transh-512.png",
         "https://skoupidia-staging.herokuapp.com/assets/icons/trash-128.png",
-        "https://skoupidia-staging.herokuapp.com/assets/icons/trash-256.png"
+        "https://skoupidia-staging.herokuapp.com/assets/icons/trash-256.png",
+        "https://skoupidia-staging.herokuapp.com/assets/icons/trash-512.png"
       ],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "https://skoupidia-staging.herokuapp.com/assets/icons/transh-512.png": "a54a60872db47860e16b34d4bcb01106eb424f02",
     "https://skoupidia-staging.herokuapp.com/assets/icons/trash-128.png": "610354954aeb7810deeba8654247f1f0092601ce",
     "https://skoupidia-staging.herokuapp.com/assets/icons/trash-256.png": "9d1f0227b2a00d597e22bba63364e974deb86fae",
+    "https://skoupidia-staging.herokuapp.com/assets/icons/trash-512.png": "a54a60872db47860e16b34d4bcb01106eb424f02",
     "https://skoupidia-staging.herokuapp.com/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://skoupidia-staging.herokuapp.com/favicon.ico": "a54a60872db47860e16b34d4bcb01106eb424f02",
     "https://skoupidia-staging.herokuapp.com/index.html": "92178fdff94a10f95af2ac3160136e630490d64a",
