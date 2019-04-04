@@ -1,9 +1,9 @@
 {
   "name": "Skoupidia",
   "short_name": "Skoupidia",
-  "theme_color": "#1976d2",
+  "theme_color": "#000D22",
   "background_color": "#000D22",
-  "display": "standalone",
+  "display": "fullscreen",
   "scope": "/",
   "start_url": "/",
   "icons": [

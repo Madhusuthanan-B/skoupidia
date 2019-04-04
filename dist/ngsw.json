@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1554402894441,
+  "timestamp": 1554404061168,
   "index": "https://skoupidia-staging.herokuapp.com/index.html",
   "assetGroups": [
     {
@@ -11,7 +11,7 @@
         "https://skoupidia-staging.herokuapp.com/es2015-polyfills.c5dd28b362270c767b34.js",
         "https://skoupidia-staging.herokuapp.com/favicon.ico",
         "https://skoupidia-staging.herokuapp.com/index.html",
-        "https://skoupidia-staging.herokuapp.com/main.6c22771de15b21df03c9.js",
+        "https://skoupidia-staging.herokuapp.com/main.2e1d9172742a06ec37ca.js",
         "https://skoupidia-staging.herokuapp.com/polyfills.8bbb231b43165d65d357.js",
         "https://skoupidia-staging.herokuapp.com/runtime.26209474bfa8dc87a77c.js",
         "https://skoupidia-staging.herokuapp.com/styles.ac54d81128e1ce59f3c3.css"
@@ -37,8 +37,8 @@
     "https://skoupidia-staging.herokuapp.com/assets/icons/trash-512.png": "a54a60872db47860e16b34d4bcb01106eb424f02",
     "https://skoupidia-staging.herokuapp.com/es2015-polyfills.c5dd28b362270c767b34.js": "b7a81c61d32b0b12737f0c13f45973ba391cd7f9",
     "https://skoupidia-staging.herokuapp.com/favicon.ico": "a54a60872db47860e16b34d4bcb01106eb424f02",
-    "https://skoupidia-staging.herokuapp.com/index.html": "92178fdff94a10f95af2ac3160136e630490d64a",
-    "https://skoupidia-staging.herokuapp.com/main.6c22771de15b21df03c9.js": "7af0d92f25ea67b381a03dcc13ce33d4cbcf5463",
+    "https://skoupidia-staging.herokuapp.com/index.html": "8505ad016513e08227bdc3dc3af95eb3a3dbb21d",
+    "https://skoupidia-staging.herokuapp.com/main.2e1d9172742a06ec37ca.js": "84becfc6baaa789722cbd9966a7e560fe695305d",
     "https://skoupidia-staging.herokuapp.com/polyfills.8bbb231b43165d65d357.js": "ffa449995bf2eba2ccd0a002417214f7eb75e7b5",
     "https://skoupidia-staging.herokuapp.com/runtime.26209474bfa8dc87a77c.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
     "https://skoupidia-staging.herokuapp.com/styles.ac54d81128e1ce59f3c3.css": "5bb83a3feeaa5eb5d7e1510a16df7cebfea4e4a3"
