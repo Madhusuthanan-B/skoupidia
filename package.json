@@ -9,7 +9,8 @@
     "test": "ng test --watch=false",
     "lint": "ng lint",
     "e2e": "ng e2e",
-    "postinstall": "ng build --aot --prod --base-href=https://skoupidia-staging.herokuapp.com/"
+    "postinstall": "ng build --aot --prod --base-href=https://skoupidia-staging.herokuapp.com/",
+    "skoupidia-pwa": "npm run build && cd dist && http-server -c-1 "
   },
   "private": true,
   "dependencies": {
@@ -22,9 +23,12 @@
     "@angular/forms": "~7.2.0",
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
+    "@angular/pwa": "^0.12.4",
     "@angular/router": "~7.2.0",
+    "@angular/service-worker": "~7.2.0",
     "core-js": "^2.5.4",
     "express": "^4.16.4",
+    "http-server": "^0.11.1",
     "path": "^0.12.7",
     "rxjs": "~6.3.3",
     "tslib": "^1.9.0",
