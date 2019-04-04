@@ -3,7 +3,7 @@
   "short_name": "Skoupidia",
   "theme_color": "#000D22",
   "background_color": "#000D22",
-  "display": "fullscreen",
+  "display": "standalone",
   "scope": "/",
   "start_url": "/",
   "icons": [

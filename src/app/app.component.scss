@@ -2,22 +2,21 @@ main {
   display: flex;
   height: 100%;
 
-  section {
-    width: 100%;
-    height: 100%;
-  }
-
   .main-wrapper {
     margin-left: 0.5rem;
-    background: linear-gradient(to bottom right, #000D22 65%, #00C3Dd, #004D68, #550455, #99097D);
     display: flex;
     flex-direction: column;
+
+    .logo-section {
+      display: flex;
+      justify-content: center;
+    }
 
     .main-title {
       display: flex;
       flex-direction: column;
       text-align: center;
-      margin-top: 5rem;
+      margin-top: 1rem;
       animation: glow 2s ease-in;
 
       h1,
@@ -48,7 +47,8 @@ main {
 p {
   color: #ffff;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.2rem;
+  font-family: sans-serif;
 }
 
 button {
@@ -72,6 +72,15 @@ button {
   }
 }
 
+.secondary {
+  border-color: #99097D;
+  color: #00d4ff;
+
+  &:hover {
+    border-color: #00d4ff;
+  }
+}
+
 .main-nav {
   display: flex;
 }
@@ -82,5 +91,17 @@ button {
   }
   100% {
     opacity: 1;
+  }
+}
+
+.controls {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  button {
+    max-width: 50%;
+    min-width: 50%;
+    border-radius: 20px;
   }
 }
